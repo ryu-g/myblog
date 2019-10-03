@@ -7,8 +7,8 @@ title: Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
-language: en
+author: ryu-g
+language: ja
 timezone:
 
 # URL
@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: https://github.com/ryu-g/myblog.git
+  branch: master
